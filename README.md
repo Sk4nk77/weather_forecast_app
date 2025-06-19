@@ -1,2 +1,44 @@
-# weather_forecast_app
-Weather forecast webapp for TV Screen
+# Weather Forecast App
+
+This project provides a simple weather forecast web application with a Node.js backend and a React frontend styled with Tailwind CSS.
+
+## Prerequisites
+- Node.js 18+
+
+## Installation
+
+### Backend
+```bash
+cd backend
+npm install
+```
+
+### Frontend
+```bash
+cd ../frontend
+npm install
+```
+
+## Running the Application
+
+### Start Backend
+```bash
+npm start
+```
+The server listens on port `5000` and exposes REST endpoints under `/api`.
+
+### Start Frontend
+In another terminal:
+```bash
+npm start
+```
+This runs the React development server which proxies API requests to the backend.
+
+## Configuration
+No additional configuration is required. Locations and their tweak settings are stored in `backend/data/locations.json`.
+
+## Project Structure
+- **backend** – Express server, cron job and API routes
+- **frontend** – React application
+
+Use the Settings page (`/settings`) in the frontend to manage locations and tweak daily forecasts. Visit `/location/:id` to view the forecast for a specific location.
