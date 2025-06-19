@@ -19,6 +19,7 @@ cd ../frontend
 npm install
 ```
 
+<<<< zl1idk-codex/generate-full-stack-weather-app-with-react-and-node.js
 If `npm start` later reports `react-scripts: not found`, ensure the dependencies
 installed correctly by running:
 ```bash
@@ -27,6 +28,8 @@ npm install react-scripts
 npx react-scripts start
 ```
 
+=======
+>>>> main
 ## Running the Application
 
 ### Start Backend
